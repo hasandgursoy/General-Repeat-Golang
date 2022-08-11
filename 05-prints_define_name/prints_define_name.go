@@ -41,4 +41,28 @@ func main() {
 
 	fmt.Println(URL, HTTP)
 
+	// Statement = Yapılan en ufak işlem dahi bir statement 'dır ve genelde bir sonucu olur.
+	// Expression = Bir sonucu olmayabilir ve birşey dönmek zorunda değildir.
+
+	// Bu ifade bir statement'dır.
+	fmt.Println(5)
+	
+	// Bu ifade bir expressiondır.
+	//5*5
+
+	// Golang'de statement durumunda bir bir expression tanımlarsak. 
+	// örnek : 
+
+	fmt.Println(5*5)
+
+	// Bu ifade artık expression statements olur 
+	// Ve Go da statement durumunda ki bir yapıda Inc yada Dec işlemleri yapılamaz.
+	// örnek : 
+
+	var val int = 10
+	val-- // burda hata vermez ama statement durumunda verecektir.
+	//fmt.Println(val--)
+
+
+
 }
